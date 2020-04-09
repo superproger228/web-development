@@ -9,12 +9,12 @@ function isPrimeNumber(k){
                 break;
             }
         }
-		if (isPrime) {
-      str = ' is prime number';
-		} else {
-      str = ' is not prime';
-		}
-      console.log(k + str)
+		    if (isPrime) {
+        str = ' is prime number';
+		    } else {
+          str = ' is not prime';
+		      }
+          console.log(k + str)
     } else {
         if (typeof k == 'object') {
             for (let m = 0; m < k.length; m++) {
@@ -28,13 +28,13 @@ function isPrimeNumber(k){
                 if (isPrime) {
                     str = ' is prime number';
                 } else {
-                    str = ' is not prime';
-                }
-                console.log(k[m] + str);
-            }
-        } else {
+                  str = ' is not prime';
+                  console.log(k[m] + st);
+              }
+          } else {
             str = 'error';
             console.log(str);
+            }
         }
     }
 }
