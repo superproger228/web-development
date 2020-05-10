@@ -3,6 +3,8 @@ USES DOS;
 VAR
   Input: STRING;
 BEGIN
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
   Input := GetEnv('QUERY_STRING');
   IF POS('name=', Input) > 0
     THEN
