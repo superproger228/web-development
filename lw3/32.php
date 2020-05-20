@@ -8,7 +8,7 @@
   }
   else
   {
-    if (checkidentifier($identifier))
+    if (checkIdentifier($identifier))
     {
       echo $identifier . 'является идентификатором'
     }
@@ -19,7 +19,7 @@
 
   }
 
-  function checkidentifier(string $identifier): bool
+  function checkIdentifier(string $identifier): bool
   {
     $result = true;
     $letters = ['a' .. 'z'];
