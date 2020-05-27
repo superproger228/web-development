@@ -11,7 +11,7 @@
   $email = getQueryStringParameter('email');
   $age = getQueryStringParameter('age');
 
-  if ($email != null)
+  if ($email !== null)
   {
     $filename = 'data/' . $email . '.txt';
     if (!file_exists('data/'))
